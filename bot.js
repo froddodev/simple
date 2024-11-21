@@ -6,7 +6,7 @@ const commands = require('./src/commands');
 const scheduler = require('./src/scheduler');
 const events = require('./src/events');
 
-const client = new Client({ 
+const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.MessageContent,
