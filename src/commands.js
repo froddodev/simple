@@ -50,7 +50,7 @@ module.exports = (client, player) => {
             switch (command) {
                 case 'bot':
                     message.channel.send({
-                        content: `Soy **Simple**, mi creado es froddo. Aquí están los comandos disponibles:\n\n**Comando: #info** - Muestra información sobre el servidor.\n**Comando: #music** - Muestra los comandos de música.\n`
+                        content: `Soy **Simple**, mi creado es froddo. Aquí están los comandos disponibles:\n\n**#info** - Muestra información sobre el servidor.\n**#music** - Muestra los comandos de música.\n`
                     });
                     break;
                 case 'info':
@@ -58,8 +58,7 @@ module.exports = (client, player) => {
                     break;
                 case 'music':
                     message.channel.send({
-                        content: `**Comandos de música disponibles:**
-                            1. **#play <enlace de YouTube>** - Reproduce una canción desde YouTube.\n2. **#stop** - Detiene la reproducción de música y el bot abandona el canal de voz.\n3. **#queue** - Muestra las canciones en la cola de reproducción.\n4. **#resume** - Reanuda la reproducción de música.\n5. **#pause** - Pausa la reproducción de música.\n6. **#skip** - Omite la canción actual y reproduce la siguiente en la cola.`
+                        content: `**Comandos de música disponibles:**\n\n1. **#play <enlace de YouTube>** - Reproduce una canción desde YouTube.\n2. **#stop** - Detiene la reproducción de música y el bot abandona el canal de voz.\n3. **#queue** - Muestra las canciones en la cola de reproducción.\n4. **#resume** - Reanuda la reproducción de música.\n5. **#pause** - Pausa la reproducción de música.\n6. **#skip** - Omite la canción actual y reproduce la siguiente en la cola.`
                     });
                     break;
                 case 'play':
