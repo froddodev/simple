@@ -17,10 +17,18 @@
     },
     {
       "channel": "general", 
-      "hour": "16",           
-      "minute": "00",  
+      "hour": "17",           
+      "minute": "05",  
       "messages": [ 
         "No te olvides del color cabeza."
+      ]
+    },
+    {
+      "channel": "general", 
+      "hour": "23",           
+      "minute": "47",  
+      "messages": [ 
+        "A alguien le van a cortar el internet."
       ]
     } 
   ]
