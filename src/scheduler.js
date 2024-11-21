@@ -11,7 +11,7 @@ module.exports = (client) => {
         const textChannels = guild.channels.cache;
         
         responses.program.forEach((program) => {
-            const targetChannelName = program.channel;  
+            const targetChannelName = program.channel; 
             const targetHour = program.hour;          
             const targetMinute = program.minute;        
             const targetChannel = textChannels.find(channel => channel.name === targetChannelName);
