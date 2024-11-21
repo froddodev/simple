@@ -97,7 +97,7 @@ module.exports = (client, player) => {
 
                     queue.delete();
                     queue.node.stop();
-                    message.channel.send('Stop');
+                    message.channel.send('Musica detenida.');
                     break;
                 case 'queue':
                     if (!voiceChannel) {
