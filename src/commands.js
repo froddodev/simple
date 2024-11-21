@@ -50,11 +50,11 @@ module.exports = (client, player) => {
             switch (command) {
                 case 'bot':
                     message.channel.send({
-                        content: `Soy **Simple**, mi creado es @${message.author.id}>. Aquí están los comandos disponibles:\n\n**Comando: #info** - Muestra información sobre el servidor.\n**Comando: #music** - Muestra los comandos de música.\n`
+                        content: `Soy **Simple**, mi creado es froddo. Aquí están los comandos disponibles:\n\n**Comando: #info** - Muestra información sobre el servidor.\n**Comando: #music** - Muestra los comandos de música.\n`
                     });
                     break;
                 case 'info':
-                    message.channel.send({ content: `No hay información disponible en este servidor, <@${message.author.id}>.` });
+                    message.channel.send({ content: `No hay información disponible en este servidor.` });
                     break;
                 case 'music':
                     message.channel.send({
@@ -172,7 +172,7 @@ module.exports = (client, player) => {
                     message.channel.send({ content: 'Siguiente cancion.' });
                     break;
                 default:
-                    message.channel.send({ content: `Comando no reconocido, @${message.author.id}>.` });
+                    message.channel.send({ content: `Comando no reconocido.` });
                     break;
             }
         }
