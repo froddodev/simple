@@ -6,10 +6,10 @@
   "program": [
     {
       "channel": "general", 
-      "hour": 15,           
-      "minute": 45,  
+      "hour": "12",           
+      "minute": "35",  
       "messages": [ 
-        "No olviden que estoy aqui putos."
+        "No olviden que estoy aqui."
       ]
     }
   ]
