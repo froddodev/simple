@@ -3,7 +3,7 @@ const fs = require('fs');
 module.exports = (client, player) => {
     const prefix = '#';
     const responses = JSON.parse(fs.readFileSync('responses.json', 'utf8'));
-    const responseWait = 5000;
+    const responseWait = 7000;
     let lastResponse = {};
 
     client.on('messageCreate', message => {
