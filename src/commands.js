@@ -50,9 +50,7 @@ module.exports = (client, player) => {
             switch (command) {
                 case 'bot':
                     message.channel.send({
-                        content: `¡Hola! Soy **Simple**, mi creado es @${message.author.id}>. Aquí están los comandos disponibles:\n\n` +
-                                 `**Comando: #info** - Muestra información sobre el servidor.\n` +
-                                 `**Comando: #music** - Muestra los comandos de música.\n`
+                        content: `Soy **Simple**, mi creado es @${message.author.id}>. Aquí están los comandos disponibles:\n\n**Comando: #info** - Muestra información sobre el servidor.\n**Comando: #music** - Muestra los comandos de música.\n`
                     });
                     break;
                 case 'info':
