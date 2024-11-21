@@ -1,4 +1,4 @@
-### Bot
+### Simple Bot
 ```
   src/
     ├── commands.js
