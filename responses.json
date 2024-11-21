@@ -1,18 +1,17 @@
 {
   "user": {
     "froddo.dev": [],
-    "wolf_657": [
-      "Buena <@name>!"
-    ]
+    "wolf_657": []
   },
   "program": [
     {
       "channel": "general", 
-      "hour": 12,           
-      "minute": 35,  
+      "hour": "12",           
+      "minute": "35",  
       "messages": [ 
         "No olviden que estoy aqui."
       ]
     }
   ]
 }
+
