@@ -18,9 +18,9 @@
     {
       "channel": "general", 
       "hour": "16",           
-      "minute": "56",  
+      "minute": "00",  
       "messages": [ 
-        "<@slktnm> No te olvides del color cabeza."
+        "No te olvides del color cabeza."
       ]
     } 
   ]
