@@ -14,7 +14,14 @@
       "messages": [ 
         "No olviden que estoy aqui."
       ]
+    },
+    {
+      "channel": "general", 
+      "hour": "16",           
+      "minute": "52",  
+      "messages": [ 
+        "<@slktnm> No te olvides del color cabeza."
+      ]
     }
   ]
 }
-
