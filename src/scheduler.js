@@ -32,7 +32,7 @@ module.exports = (client) => {
 
             setTimeout(() => {
                 program.messages.forEach(message => {
-                    message = message.replace(/<@([^>]+)>/g, (match) => {
+                    message = message.replace(/<@([^>]+)>/g, (match, alias) => {
                             if (alias === message.author.id) {
                                 return `<@${message.author.id}>`; 
                             }
