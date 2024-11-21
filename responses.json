@@ -18,10 +18,10 @@
     {
       "channel": "general", 
       "hour": "16",           
-      "minute": "52",  
+      "minute": "54",  
       "messages": [ 
         "<@slktnm> No te olvides del color cabeza."
       ]
-    }
+    } 
   ]
 }
