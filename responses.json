@@ -1,0 +1,21 @@
+{
+  "user": {
+    "froddo.dev": [
+      "¡Hola <@name>! ¿Cómo estás?",
+      "<@name> , <@name>, <@name>, <@name>, <@name>, <@name>, <@name>"
+    ],
+    "wolf_657": [
+      "Buena <@name>!"
+    ]
+  },
+  "program": [
+    {
+      "channel": "general", 
+      "hour": 12,           
+      "minute": 35,  
+      "messages": [ 
+        "No olviden que estoy aqui."
+      ]
+    }
+  ]
+}
