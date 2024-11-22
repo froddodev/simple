@@ -48,7 +48,7 @@ module.exports = (client, player) => {
             const queue = player.queues.get(message.guild);
 
             switch (command) {
-                case 'bot':
+                case 'simple':
                     message.channel.send({
                         content: `Soy **Simple**, mi creado es froddo. Aquí están los comandos disponibles:\n\n**#info** - Muestra información sobre el servidor.\n**#music** - Muestra los comandos de música.\n`
                     });
