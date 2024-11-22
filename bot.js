@@ -17,7 +17,7 @@ const client = new Client({
 
 const player = new Player(client);
 player.extractors.register(YoutubeiExtractor).then(() => {
-    console.log('Bot started');
+    console.log('Simple started');
     console.log('Youtube started');
 }).catch(e => console.log(e));
 
