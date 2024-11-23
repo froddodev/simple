@@ -35,7 +35,7 @@ module.exports = (client, player) => {
                     return match;
                 });
 
-                message.channel.send({ content: randomResponse });
+                message.channel.reply({ content: randomResponse });
                 lastResponse[message.author.id] = { response: randomResponse, timestamp: now };
             }
         }
